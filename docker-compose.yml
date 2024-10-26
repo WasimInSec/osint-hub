@@ -1,8 +1,8 @@
 version: '3.9'
 services:
   web-check:
-    container_name: Web-Check
-    image: lissy93/web-check
+    container_name: osint-hub
+    image: predator001/osint-hub
     ports:
       - 3000:3000
     restart: unless-stopped
